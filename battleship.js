@@ -2,6 +2,7 @@
 var rows = 10;
 var cols = 10;
 var squareSize = 50;
+var hitCount = 0;
 
 // gets the container element
 var gameBoardContainer = document.getElementById("gameboard");
@@ -81,7 +82,7 @@ var gameBoard = [
 if (gameBoard[row][column - 1] == 1){
 
 		document.getElementById("s" + row + (column - 1)).style.background =  "red";
-    
+
 	}
 	else {
 
@@ -90,3 +91,5 @@ if (gameBoard[row][column - 1] == 1){
 	}
 	var userInput = $("fireInput").val();
 }
+
+$("#instructions").text("YOU SUNK ALL MY BATTLESHIPS!");
