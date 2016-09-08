@@ -92,4 +92,8 @@ if (gameBoard[row][column - 1] == 1){
 	var userInput = $("fireInput").val();
 }
 
+function hitCount() {
+
 $("#instructions").text("YOU SUNK ALL MY BATTLESHIPS!");
+
+}
