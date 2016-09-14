@@ -2,7 +2,6 @@
 var rows = 10;
 var cols = 10;
 var squareSize = 50;
-var hitCount = 0;
 
 // gets the container element
 var gameBoardContainer = document.getElementById("gameboard");
@@ -68,7 +67,7 @@ var gameBoard = [
 				 var first;
 				 var second;
 				 var converted;
-				 var hitHolder = 0;
+				 var hitCount = 0;
 
 
 
